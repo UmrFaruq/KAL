@@ -5,3 +5,7 @@
 ## Eliminasi Gaus
 
 ## Eliminasi Gaus Jordan
+
+
+```{tableofcontents}
+```
