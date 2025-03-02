@@ -184,6 +184,7 @@
         </ul>
         <ul class="nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="markdown.html">Penyelesaian Sistem Persamaan Linier</a></li>
+<li class="toctree-l1"><a class="reference internal" href="eliminasi.html">Persamaan Linier</a></li>
 </ul>
 
     </div>
@@ -433,40 +434,40 @@ adalah konstanta.</p>
 <li><p>Penyelesaian Tunggal (Unique Solution)
 Definisi: Sistem persamaan linier memiliki satu solusi jika garis-garis yang merepresentasikan persamaan tersebut berpotongan di satu titik.</p></li>
 </ol>
-<p>Contoh: Misalkan kita memiliki sistem persamaan berikut:
-<span class="math notranslate nohighlight">\(
+<p>Contoh: Misalkan kita memiliki sistem persamaan berikut:</p>
+<p><span class="math notranslate nohighlight">\(
 \begin{align*}
 2x + 3y &amp;= 6 \quad (1) \\
 x - y &amp;= 1 \quad (2)
 \end{align*}
 \)</span></p>
 <p>Jika kita menyelesaikan sistem ini, kita akan menemukan satu titik ((x, y)) yang memenuhi kedua persamaan.<br />
-Misalnya, solusi dari sistem ini adalah:<br />
-<span class="math notranslate nohighlight">\(
+Misalnya, solusi dari sistem ini adalah:</p>
+<p><span class="math notranslate nohighlight">\(
 x = 3, \quad y = 0
 \)</span></p>
 <ol class="arabic simple" start="2">
 <li><p>Banyak Penyelesaian (Infinite Solutions)
 Definisi: Sistem persamaan linier memiliki banyak solusi jika garis-garis yang merepresentasikan persamaan tersebut tumpang tindih (berimpit).</p></li>
 </ol>
-<p>Contoh: Misalkan kita memiliki sistem persamaan berikut:
-<span class="math notranslate nohighlight">\(
+<p>Contoh: Misalkan kita memiliki sistem persamaan berikut:</p>
+<p><span class="math notranslate nohighlight">\(
 \begin{align*}
 2x + 4y &amp;= 8 \quad (1) \\
 x + 2y &amp;= 4 \quad (2)
 \end{align*}
 \)</span></p>
 <p>Persamaan (1) dapat disederhanakan menjadi ( x + 2y = 4 ), yang sama dengan persamaan (2).<br />
-Karena kedua persamaan ini merepresentasikan garis yang sama, maka ada <strong>banyak solusi</strong>, yaitu semua pasangan ((x, y)) yang memenuhi:<br />
-<span class="math notranslate nohighlight">\(
+Karena kedua persamaan ini merepresentasikan garis yang sama, maka ada <strong>banyak solusi</strong>, yaitu semua pasangan ((x, y)) yang memenuhi:</p>
+<p><span class="math notranslate nohighlight">\(
 x + 2y = 4
 \)</span></p>
 <ol class="arabic simple" start="3">
 <li><p>Tidak Ada Penyelesaian (No Solution)
 Definisi: Sistem persamaan linier tidak memiliki solusi jika garis-garis yang merepresentasikan persamaan tersebut sejajar dan tidak pernah berpotongan.</p></li>
 </ol>
-<p>Contoh: Misalkan kita memiliki sistem persamaan berikut:
-<span class="math notranslate nohighlight">\(
+<p>Contoh: Misalkan kita memiliki sistem persamaan berikut:</p>
+<p><span class="math notranslate nohighlight">\(
 \begin{align*}
 2x + 3y &amp;= 6 \quad (1) \\
 2x + 3y &amp;= 8 \quad (2)
@@ -477,21 +478,22 @@ Ini berarti kedua garis <strong>sejajar</strong> dan <strong>tidak akan pernah b
 <section id="eliminasi">
 <h3>Eliminasi<a class="headerlink" href="#eliminasi" title="Link to this heading">#</a></h3>
 <p><strong>Definisi:</strong> Metode eliminasi adalah teknik untuk menyelesaikan sistem persamaan linier dengan mengeliminasi satu variabel pada satu waktu, sehingga sistem dapat diselesaikan dengan lebih mudah.</p>
-<p><strong>Contoh:</strong> Misalkan kita memiliki sistem persamaan berikut:
-<span class="math notranslate nohighlight">\(
+<p><strong>Contoh:</strong> Misalkan kita memiliki sistem persamaan berikut:</p>
+<p><span class="math notranslate nohighlight">\(
 \begin{align*}
 2x + 3y &amp;= 6 \quad (1) \\
 x - y &amp;= 1 \quad (2)
 \end{align*}
 \)</span></p>
 <p><strong>Langkah-langkah:</strong></p>
-<ol class="arabic simple">
-<li><p>Dari persamaan (2), kita ekspresikan ( x ) dalam bentuk ( y ):<br />
-<span class="math notranslate nohighlight">\(
+<ol class="arabic">
+<li><p>Dari persamaan (2), kita ekspresikan ( x ) dalam bentuk ( y ):</p>
+<p><span class="math notranslate nohighlight">\(
 x = y + 1
-\)</span></p></li>
-<li><p>Substitusi nilai ( x ) ke dalam persamaan (1):<br />
-<span class="math notranslate nohighlight">\(
+\)</span></p>
+</li>
+<li><p>Substitusi nilai ( x ) ke dalam persamaan (1):</p>
+<p><span class="math notranslate nohighlight">\(
 2(y + 1) + 3y = 6
 \)</span>
 <span class="math notranslate nohighlight">\(
@@ -501,14 +503,16 @@ x = y + 1
 5y + 2 = 6
 \)</span>
 5y = 4 \quad \Rightarrow \quad y = \frac{4}{5}
-$</p></li>
-<li><p>Substitusi ( y = \frac{4}{5} ) kembali ke dalam persamaan (2):<br />
-<span class="math notranslate nohighlight">\(
+$</p>
+</li>
+<li><p>Substitusi ( y = \frac{4}{5} ) kembali ke dalam persamaan (2):</p>
+<p><span class="math notranslate nohighlight">\(
 x = \frac{4}{5} + 1 = \frac{9}{5}
-\)</span></p></li>
+\)</span></p>
+</li>
 </ol>
-<p><strong>Solusi:</strong>
-<span class="math notranslate nohighlight">\(
+<p><strong>Solusi:</strong></p>
+<p><span class="math notranslate nohighlight">\(
 \left( x = \frac{9}{5}, \quad y = \frac{4}{5} \right)
 \)</span></p>
 </section>
@@ -517,8 +521,8 @@ x = \frac{4}{5} + 1 = \frac{9}{5}
 <p><strong>Definisi:</strong><br />
 Eliminasi Gauss adalah metode sistematis untuk menyelesaikan sistem persamaan linier dengan mengubah matriks koefisien menjadi bentuk segitiga atas.</p>
 <p><strong>Contoh:</strong><br />
-Misalkan kita memiliki sistem persamaan berikut:
-<span class="math notranslate nohighlight">\(
+Misalkan kita memiliki sistem persamaan berikut:</p>
+<p><span class="math notranslate nohighlight">\(
 \begin{align*}
 2x + 3y + z &amp;= 1 \quad (1) \\
 4x + y - z &amp;= 2 \quad (2) \\
@@ -526,17 +530,18 @@ Misalkan kita memiliki sistem persamaan berikut:
 \end{align*}
 \)</span></p>
 <ol class="arabic">
-<li><p>Tulis sistem dalam bentuk matriks augmented:
-<span class="math notranslate nohighlight">\(
+<li><p>Tulis sistem dalam bentuk matriks augmented:</p>
+<p><span class="math notranslate nohighlight">\(
 \begin{bmatrix} 
 2 &amp; 3 &amp; 1 &amp; | &amp; 1 \\  
 4 &amp; 1 &amp; -1 &amp; | &amp; 2 \\  
 -2 &amp; 1 &amp; 2 &amp; | &amp; 3  
 \end{bmatrix}
-\)</span></p></li>
+\)</span></p>
+</li>
 <li><p>Lakukan operasi baris elementer untuk mengubahnya menjadi bentuk segitiga atas.</p>
-<p>Setelah beberapa langkah, kita mendapatkan:
-<span class="math notranslate nohighlight">\(
+<p>Setelah beberapa langkah, kita mendapatkan:</p>
+<p><span class="math notranslate nohighlight">\(
 \begin{bmatrix} 
 2 &amp; 3 &amp; 1 &amp; | &amp; 1 \\  
 0 &amp; -5 &amp; -3 &amp; | &amp; 0 \\  
@@ -551,8 +556,8 @@ Misalkan kita memiliki sistem persamaan berikut:
 <h3>Solusi Grafik<a class="headerlink" href="#solusi-grafik" title="Link to this heading">#</a></h3>
 <p><strong>Definisi:</strong><br />
 Metode grafik menyelesaikan sistem persamaan linier dengan menggambar grafik setiap persamaan dan mencari titik potongnya.</p>
-<p><strong>Contoh:</strong>
-<span class="math notranslate nohighlight">\(
+<p><strong>Contoh:</strong></p>
+<p><span class="math notranslate nohighlight">\(
 \begin{align*}
 y &amp;= 2x + 1 \quad (1) \\
 y &amp;= -x + 4 \quad (2)

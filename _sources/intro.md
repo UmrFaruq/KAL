@@ -42,6 +42,7 @@ SPL memiliki banyak aplikasi dalam kehidupan sehari-hari, mulai dari bidang tekn
 Definisi: Sistem persamaan linier memiliki satu solusi jika garis-garis yang merepresentasikan persamaan tersebut berpotongan di satu titik.
 
 Contoh: Misalkan kita memiliki sistem persamaan berikut: 
+
 $
 \begin{align*}
 2x + 3y &= 6 \quad (1) \\
@@ -50,7 +51,8 @@ x - y &= 1 \quad (2)
 $
 
 Jika kita menyelesaikan sistem ini, kita akan menemukan satu titik \((x, y)\) yang memenuhi kedua persamaan.  
-Misalnya, solusi dari sistem ini adalah:  
+Misalnya, solusi dari sistem ini adalah: 
+
 $
 x = 3, \quad y = 0
 $
@@ -59,6 +61,7 @@ $
 Definisi: Sistem persamaan linier memiliki banyak solusi jika garis-garis yang merepresentasikan persamaan tersebut tumpang tindih (berimpit).
 
 Contoh: Misalkan kita memiliki sistem persamaan berikut: 
+
 $
 \begin{align*}
 2x + 4y &= 8 \quad (1) \\
@@ -67,7 +70,8 @@ x + 2y &= 4 \quad (2)
 $
 
 Persamaan (1) dapat disederhanakan menjadi \( x + 2y = 4 \), yang sama dengan persamaan (2).  
-Karena kedua persamaan ini merepresentasikan garis yang sama, maka ada **banyak solusi**, yaitu semua pasangan \((x, y)\) yang memenuhi:  
+Karena kedua persamaan ini merepresentasikan garis yang sama, maka ada **banyak solusi**, yaitu semua pasangan \((x, y)\) yang memenuhi: 
+
 $
 x + 2y = 4
 $
@@ -76,6 +80,7 @@ $
 Definisi: Sistem persamaan linier tidak memiliki solusi jika garis-garis yang merepresentasikan persamaan tersebut sejajar dan tidak pernah berpotongan.
 
 Contoh: Misalkan kita memiliki sistem persamaan berikut: 
+
 $
 \begin{align*}
 2x + 3y &= 6 \quad (1) \\
@@ -90,6 +95,7 @@ Ini berarti kedua garis **sejajar** dan **tidak akan pernah berpotongan**, sehin
 **Definisi:** Metode eliminasi adalah teknik untuk menyelesaikan sistem persamaan linier dengan mengeliminasi satu variabel pada satu waktu, sehingga sistem dapat diselesaikan dengan lebih mudah.
 
 **Contoh:** Misalkan kita memiliki sistem persamaan berikut:
+
 $
 \begin{align*}
 2x + 3y &= 6 \quad (1) \\
@@ -98,11 +104,14 @@ x - y &= 1 \quad (2)
 $
 
 **Langkah-langkah:**
-1. Dari persamaan (2), kita ekspresikan \( x \) dalam bentuk \( y \):  
+1. Dari persamaan (2), kita ekspresikan \( x \) dalam bentuk \( y \): 
+
    $
    x = y + 1
    $
+
 2. Substitusi nilai \( x \) ke dalam persamaan (1):  
+
    $
    2(y + 1) + 3y = 6
    $
@@ -114,12 +123,15 @@ $
    $
    5y = 4 \quad \Rightarrow \quad y = \frac{4}{5}
    $
-3. Substitusi \( y = \frac{4}{5} \) kembali ke dalam persamaan (2):  
+
+3. Substitusi \( y = \frac{4}{5} \) kembali ke dalam persamaan (2): 
+
    $
    x = \frac{4}{5} + 1 = \frac{9}{5}
    $
 
 **Solusi:**
+
 $
 \left( x = \frac{9}{5}, \quad y = \frac{4}{5} \right)
 $
@@ -130,6 +142,7 @@ Eliminasi Gauss adalah metode sistematis untuk menyelesaikan sistem persamaan li
 
 **Contoh:**  
 Misalkan kita memiliki sistem persamaan berikut:
+
 $
 \begin{align*}
 2x + 3y + z &= 1 \quad (1) \\
@@ -139,6 +152,7 @@ $
 $
 
 1. Tulis sistem dalam bentuk matriks augmented:
+
    $
    \begin{bmatrix} 
    2 & 3 & 1 & | & 1 \\  
@@ -146,9 +160,11 @@ $
    -2 & 1 & 2 & | & 3  
    \end{bmatrix}
    $
+
 2. Lakukan operasi baris elementer untuk mengubahnya menjadi bentuk segitiga atas.
 
    Setelah beberapa langkah, kita mendapatkan:
+
    $
    \begin{bmatrix} 
    2 & 3 & 1 & | & 1 \\  
@@ -164,6 +180,7 @@ $
 Metode grafik menyelesaikan sistem persamaan linier dengan menggambar grafik setiap persamaan dan mencari titik potongnya.
 
 **Contoh:**
+
 $
 \begin{align*}
 y &= 2x + 1 \quad (1) \\
