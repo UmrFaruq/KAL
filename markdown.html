@@ -57,9 +57,12 @@
     <script async="async" src="_static/sphinx-thebe.js?v=c100c467"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <script>DOCUMENTATION_OPTIONS.pagename = 'markdown';</script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Persamaan Linier" href="eliminasi.html" />
     <link rel="prev" title="SISTEM PERSAMAAN LINIER" href="intro.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
@@ -180,6 +183,7 @@
         </ul>
         <ul class="current nav bd-sidenav">
 <li class="toctree-l1 current active"><a class="current reference internal" href="#">Penyelesaian Sistem Persamaan Linier</a></li>
+<li class="toctree-l1"><a class="reference internal" href="eliminasi.html">Persamaan Linier</a></li>
 </ul>
 
     </div>
@@ -402,9 +406,27 @@ document.write(`
 </section>
 <section id="contoh-soal-1">
 <h2>Contoh Soal 1<a class="headerlink" href="#contoh-soal-1" title="Link to this heading">#</a></h2>
+<p>selesaikan dengan eliminasi gaus:</p>
+<p><span class="math notranslate nohighlight">\(
+\begin{split}
+\begin{array}{cc}
+x_1+2x_2+3x_3&amp;=6\\
+2x_1+4x_2+6x_3&amp;=12\\
+x_3+x_2&amp;=2
+\end{array}
+\end{split}
+\)</span></p>
 </section>
 <section id="contoh-soal-2">
 <h2>Contoh Soal 2<a class="headerlink" href="#contoh-soal-2" title="Link to this heading">#</a></h2>
+<p>selesaikan dengan eliminasi gaus:</p>
+<p>\begin{split}
+\begin{array}{cc}
+x_1+x_2+x_3&amp;=3\
+2x_1+x_3&amp;=5\
+x_1+2x_2&amp;=3
+\end{array}
+\end{split}</p>
 </section>
 <section id="contoh-soal-3">
 <h2>Contoh Soal 3<a class="headerlink" href="#contoh-soal-3" title="Link to this heading">#</a></h2>
@@ -452,6 +474,15 @@ document.write(`
         <p class="prev-next-subtitle">previous</p>
         <p class="prev-next-title">SISTEM PERSAMAAN LINIER</p>
       </div>
+    </a>
+    <a class="right-next"
+       href="eliminasi.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Persamaan Linier</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
     </a>
 </div>
                 </footer>
