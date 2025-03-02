@@ -379,7 +379,6 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">SISTEM PERSAMAAN LINIER</a><ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#pengertian-sistem-persamaan-linier">Pengertian Sistem Persamaan Linier</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#mengapa-sistem-persamaan-linier-penting">Mengapa Sistem Persamaan Linier Penting?</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#solusi-persamaan-linier">Solusi Persamaan Linier</a><ul class="nav section-nav flex-column">
@@ -389,12 +388,6 @@ document.write(`
 </ul>
 </li>
 </ul>
-</li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#definisikan-rentang-x">Definisikan rentang x</a></li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#definisikan-fungsi">Definisikan fungsi</a></li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#buat-plot">Buat plot</a></li>
-</ul>
-
             </nav>
         </div>
     </div>
@@ -441,82 +434,135 @@ adalah konstanta.</p>
 Definisi: Sistem persamaan linier memiliki satu solusi jika garis-garis yang merepresentasikan persamaan tersebut berpotongan di satu titik.</p></li>
 </ol>
 <p>Contoh: Misalkan kita memiliki sistem persamaan berikut:
-[ \begin{align*} 2x + 3y &amp;= 6 \quad (1) \ x - y &amp;= 1 \quad (2) \end{align*} ]</p>
-<p>Jika kita menyelesaikan sistem ini, kita akan menemukan satu titik (x, y) yang memenuhi kedua persamaan. Misalnya, solusi dari sistem ini adalah (x = 3) dan (y = 0).</p>
+[
+\begin{align*}
+2x + 3y &amp;= 6 \quad (1) \
+x - y &amp;= 1 \quad (2)
+\end{align*}
+]</p>
+<p>Jika kita menyelesaikan sistem ini, kita akan menemukan satu titik ((x, y)) yang memenuhi kedua persamaan.<br />
+Misalnya, solusi dari sistem ini adalah:<br />
+[
+x = 3, \quad y = 0
+]</p>
 <ol class="arabic simple" start="2">
 <li><p>Banyak Penyelesaian (Infinite Solutions)
 Definisi: Sistem persamaan linier memiliki banyak solusi jika garis-garis yang merepresentasikan persamaan tersebut tumpang tindih (berimpit).</p></li>
 </ol>
 <p>Contoh: Misalkan kita memiliki sistem persamaan berikut:
-[ \begin{align*} 2x + 4y &amp;= 8 \quad (1) \ x + 2y &amp;= 4 \quad (2) \end{align*} ]</p>
-<p>Persamaan (1) dapat disederhanakan menjadi (x + 2y = 4), yang sama dengan persamaan (2). Karena kedua persamaan ini merepresentasikan garis yang sama, maka ada banyak solusi, yaitu semua pasangan (x, y) yang memenuhi (x + 2y = 4).</p>
+[
+\begin{align*}
+2x + 4y &amp;= 8 \quad (1) \
+x + 2y &amp;= 4 \quad (2)
+\end{align*}
+]</p>
+<p>Persamaan (1) dapat disederhanakan menjadi ( x + 2y = 4 ), yang sama dengan persamaan (2).<br />
+Karena kedua persamaan ini merepresentasikan garis yang sama, maka ada <strong>banyak solusi</strong>, yaitu semua pasangan ((x, y)) yang memenuhi:<br />
+[
+x + 2y = 4
+]</p>
 <ol class="arabic simple" start="3">
 <li><p>Tidak Ada Penyelesaian (No Solution)
 Definisi: Sistem persamaan linier tidak memiliki solusi jika garis-garis yang merepresentasikan persamaan tersebut sejajar dan tidak pernah berpotongan.</p></li>
 </ol>
 <p>Contoh: Misalkan kita memiliki sistem persamaan berikut:
-[ \begin{align*} 2x + 3y &amp;= 6 \quad (1) \ 2x + 3y &amp;= 8 \quad (2) \end{align*} ]</p>
-<p>Kedua persamaan ini memiliki koefisien yang sama untuk (x) dan (y), tetapi konstanta di sisi kanan berbeda. Ini berarti kedua garis sejajar dan tidak akan pernah berpotongan, sehingga tidak ada solusi untuk sistem ini.</p>
+[
+\begin{align*}
+2x + 3y &amp;= 6 \quad (1) \
+2x + 3y &amp;= 8 \quad (2)
+\end{align*}
+]</p>
+<p>Kedua persamaan ini memiliki koefisien yang sama untuk ( x ) dan ( y ), tetapi konstanta di sisi kanan berbeda.<br />
+Ini berarti kedua garis <strong>sejajar</strong> dan <strong>tidak akan pernah berpotongan</strong>, sehingga <strong>tidak ada solusi</strong> untuk sistem ini.</p>
 <section id="eliminasi">
 <h3>Eliminasi<a class="headerlink" href="#eliminasi" title="Link to this heading">#</a></h3>
-<p>Definisi: Metode eliminasi adalah teknik untuk menyelesaikan sistem persamaan linier dengan mengeliminasi satu variabel pada satu waktu, sehingga sistem dapat diselesaikan dengan lebih mudah.</p>
-<p>Contoh: Misalkan kita memiliki sistem persamaan berikut: [ \begin{align*} 2x + 3y &amp;= 6 \quad (1) \ x - y &amp;= 1 \quad (2) \end{align*} ]</p>
-<p>Langkah-langkah:</p>
+<p><strong>Definisi:</strong> Metode eliminasi adalah teknik untuk menyelesaikan sistem persamaan linier dengan mengeliminasi satu variabel pada satu waktu, sehingga sistem dapat diselesaikan dengan lebih mudah.</p>
+<p><strong>Contoh:</strong> Misalkan kita memiliki sistem persamaan berikut:
+[
+\begin{align*}
+2x + 3y &amp;= 6 \quad (1) \
+x - y &amp;= 1 \quad (2)
+\end{align*}
+]</p>
+<p><strong>Langkah-langkah:</strong></p>
 <ol class="arabic simple">
-<li><p>Dari persamaan (2), kita dapat mengekspresikan (x) dalam bentuk (y): [ x = y + 1 ]</p></li>
-<li><p>Substitusikan nilai (x) ke dalam persamaan (1): [ 2(y + 1) + 3y = 6 ] [ 2y + 2 + 3y = 6 ] [ 5y + 2 = 6 ] [ 5y = 4 \quad \Rightarrow \quad y = \frac{4}{5} ]</p></li>
-<li><p>Substitusikan nilai (y) kembali ke dalam persamaan (2): [ x = \frac{4}{5} + 1 = \frac{9}{5} ]
-Solusi: (x = \frac{9}{5}, y = \frac{4}{5})</p></li>
+<li><p>Dari persamaan (2), kita ekspresikan ( x ) dalam bentuk ( y ):<br />
+[
+x = y + 1
+]</p></li>
+<li><p>Substitusi nilai ( x ) ke dalam persamaan (1):<br />
+[
+2(y + 1) + 3y = 6
+]
+[
+2y + 2 + 3y = 6
+]
+[
+5y + 2 = 6
+]
+[
+5y = 4 \quad \Rightarrow \quad y = \frac{4}{5}
+]</p></li>
+<li><p>Substitusi ( y = \frac{4}{5} ) kembali ke dalam persamaan (2):<br />
+[
+x = \frac{4}{5} + 1 = \frac{9}{5}
+]</p></li>
 </ol>
+<p><strong>Solusi:</strong>
+[
+\left( x = \frac{9}{5}, \quad y = \frac{4}{5} \right)
+]</p>
 </section>
 <section id="eliminasi-gaus">
 <h3>Eliminasi Gaus<a class="headerlink" href="#eliminasi-gaus" title="Link to this heading">#</a></h3>
-<p>Definisi: Eliminasi Gauss adalah metode sistematis untuk menyelesaikan sistem persamaan linier dengan mengubah matriks koefisien menjadi bentuk segitiga atas, sehingga memudahkan untuk menemukan solusi.</p>
-<p>Contoh: Misalkan kita memiliki sistem persamaan berikut: [ \begin{align*} 2x + 3y + z &amp;= 1 \quad (1) \ 4x + y - z &amp;= 2 \quad (2) \ -2x + y + 2z &amp;= 3 \quad (3) \end{align*} ]</p>
-<p>Langkah-langkah:</p>
-<ol class="arabic simple">
-<li><p>Tulis sistem dalam bentuk matriks augmented: [ \begin{bmatrix} 2 &amp; 3 &amp; 1 &amp; | &amp; 1 \ 4 &amp; 1 &amp; -1 &amp; | &amp; 2 \ -2 &amp; 1 &amp; 2 &amp; | &amp; 3 \end{bmatrix} ]</p></li>
-<li><p>Lakukan operasi baris elementer untuk mengubahnya menjadi bentuk segitiga atas:</p></li>
+<p><strong>Definisi:</strong><br />
+Eliminasi Gauss adalah metode sistematis untuk menyelesaikan sistem persamaan linier dengan mengubah matriks koefisien menjadi bentuk segitiga atas.</p>
+<p><strong>Contoh:</strong><br />
+Misalkan kita memiliki sistem persamaan berikut:
+[
+\begin{align*}
+2x + 3y + z &amp;= 1 \quad (1) \
+4x + y - z &amp;= 2 \quad (2) \
+-2x + y + 2z &amp;= 3 \quad (3)
+\end{align*}
+]</p>
+<ol class="arabic">
+<li><p>Tulis sistem dalam bentuk matriks augmented:
+[
+\begin{bmatrix}
+2 &amp; 3 &amp; 1 &amp; | &amp; 1 \<br />
+4 &amp; 1 &amp; -1 &amp; | &amp; 2 \<br />
+-2 &amp; 1 &amp; 2 &amp; | &amp; 3<br />
+\end{bmatrix}
+]</p></li>
+<li><p>Lakukan operasi baris elementer untuk mengubahnya menjadi bentuk segitiga atas.</p>
+<p>Setelah beberapa langkah, kita mendapatkan:
+[
+\begin{bmatrix}
+2 &amp; 3 &amp; 1 &amp; | &amp; 1 \<br />
+0 &amp; -5 &amp; -3 &amp; | &amp; 0 \<br />
+0 &amp; 0 &amp; 1 &amp; | &amp; 1<br />
+\end{bmatrix}
+]</p>
+</li>
+<li><p>Dari sini, kita bisa menyelesaikan dengan <strong>substitusi mundur</strong> untuk menemukan ( x ), ( y ), dan ( z ).</p></li>
 </ol>
-<p>Ganti baris 2 dengan baris 2 dikurangi 2 kali baris 1.
-Ganti baris 3 dengan baris 3 ditambahkan dengan baris 1.
-Setelah beberapa langkah, kita akan mendapatkan: [ \begin{bmatrix} 2 &amp; 3 &amp; 1 &amp; | &amp; 1 \ 0 &amp; -5 &amp; -3 &amp; | &amp; 0 \ 0 &amp; 0 &amp; 1 &amp; | &amp; 1 \end{bmatrix} ]</p>
-<ol class="arabic simple" start="3">
-<li><p>Dari sini, kita dapat menyelesaikan sistem dengan substitusi mundur.</p></li>
-</ol>
-<p>Solusi: Setelah menyelesaikan, kita akan mendapatkan nilai untuk (x), (y), dan (z).</p>
 </section>
 <section id="solusi-grafik">
 <h3>Solusi Grafik<a class="headerlink" href="#solusi-grafik" title="Link to this heading">#</a></h3>
-<p>Definisi: Metode solusi grafik melibatkan menggambar grafik dari setiap persamaan dalam sistem dan mencari titik potong antara grafik-grafik tersebut, yang merupakan solusi dari sistem.</p>
-<p>Contoh: Misalkan kita memiliki sistem persamaan berikut: [ \begin{align*} y &amp;= 2x + 1 \quad (1) \ y &amp;= -x + 4 \quad (2) \end{align*} ]</p>
-<p>Langkah-langkah:</p>
-<ol class="arabic simple">
-<li><p>Gambar grafik dari kedua persamaan.</p></li>
-<li><p>Titik potong dari kedua grafik adalah solusi dari sistem.</p></li>
-</ol>
-<p>import numpy as np
-import matplotlib.pyplot as plt</p>
+<p><strong>Definisi:</strong><br />
+Metode grafik menyelesaikan sistem persamaan linier dengan menggambar grafik setiap persamaan dan mencari titik potongnya.</p>
+<p><strong>Contoh:</strong>
+[
+\begin{align*}
+y &amp;= 2x + 1 \quad (1) \
+y &amp;= -x + 4 \quad (2)
+\end{align*}
+]</p>
+<p>Titik potong dari kedua grafik adalah <strong>solusi dari sistem</strong>.</p>
 </section>
 </section>
-</section>
-<section class="tex2jax_ignore mathjax_ignore" id="definisikan-rentang-x">
-<h1>Definisikan rentang x<a class="headerlink" href="#definisikan-rentang-x" title="Link to this heading">#</a></h1>
-<p>x = np.linspace(-5, 5, 100)</p>
-</section>
-<section class="tex2jax_ignore mathjax_ignore" id="definisikan-fungsi">
-<h1>Definisikan fungsi<a class="headerlink" href="#definisikan-fungsi" title="Link to this heading">#</a></h1>
-<p>y1 = 2*x + 1
-y2 = -x + 4</p>
-</section>
-<section class="tex2jax_ignore mathjax_ignore" id="buat-plot">
-<h1>Buat plot<a class="headerlink" href="#buat-plot" title="Link to this heading">#</a></h1>
-<p>plt.figure(figsize=(8, 6))
-plt.plot(x, y1</p>
 <div class="toctree-wrapper compound">
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="markdown.html">Penyelesaian Sistem Persamaan Linier</a></li>
-</ul>
 </div>
 </section>
 
@@ -575,7 +621,6 @@ plt.plot(x, y1</p>
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">SISTEM PERSAMAAN LINIER</a><ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#pengertian-sistem-persamaan-linier">Pengertian Sistem Persamaan Linier</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#mengapa-sistem-persamaan-linier-penting">Mengapa Sistem Persamaan Linier Penting?</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#solusi-persamaan-linier">Solusi Persamaan Linier</a><ul class="nav section-nav flex-column">
@@ -585,12 +630,6 @@ plt.plot(x, y1</p>
 </ul>
 </li>
 </ul>
-</li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#definisikan-rentang-x">Definisikan rentang x</a></li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#definisikan-fungsi">Definisikan fungsi</a></li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#buat-plot">Buat plot</a></li>
-</ul>
-
   </nav></div>
 
 </div></div>
