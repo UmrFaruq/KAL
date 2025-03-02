@@ -2,7 +2,48 @@
 
 ### Operasi Baris Elementer
 
+Operasi Baris Elementer (OBE) adalah tiga jenis operasi yang dapat dilakukan pada baris-baris dalam matriks tanpa mengubah solusi dari sistem persamaan linear yang diwakili oleh matriks tersebut. OBE digunakan dalam metode eliminasi Gauss, eliminasi Gauss-Jordan, dan perhitungan determinan serta invers matriks.
+
+**Tiga Jenis Operasi Baris Elementer:**
+
+1. **Pertukaran Baris (Row Swap)**  
+
+   $$ R_i \leftrightarrow R_j $$  
+
+   Menukar posisi dua baris dalam matriks.
+
+2. **Perkalian Baris dengan Skalar (Row Scaling)**  
+
+   $$ R_i \rightarrow k R_i, \quad k \neq 0 $$  
+
+Mengalikan suatu baris dengan bilangan skalar 𝑘 yang tidak nol.
+
+3. **Penjumlahan Baris dengan Kelipatan Baris Lain (Row Replacement/Row Addition)**
+
+   $$ R_i \rightarrow R_i + k R_j $$
+
+   Menambahkan kelipatan suatu baris ke baris lain.
+
+   OBE digunakan untuk menyederhanakan matriks ke bentuk eselon baris atau bentuk eselon baris tereduksi, yang berguna dalam penyelesaian sistem persamaan linear dan mencari invers matriks. 
+
 ### Eliminasi Gaus
+
+Eliminasi Gauss adalah metode dalam aljabar linear yang digunakan untuk menyelesaikan sistem persamaan linear dengan mengubah matriks augmented ke bentuk eselon baris menggunakan Operasi Baris Elementer (OBE).
+
+Langkah-langkah Eliminasi Gauss:
+
+1. Menyusun Matriks Augmented
+
+- Tuliskan sistem persamaan linear dalam bentuk matriks augmented.
+
+2.  Mengubah Matriks ke Bentuk Eselon Baris
+
+- Gunakan OBE (pertukaran baris, perkalian dengan skalar, dan penjumlahan baris) untuk membuat elemen di bawah diagonal utama menjadi nol.
+
+3. Substitusi Mundur (Back Substitution)
+
+- Setelah terbentuk bentuk eselon baris, gunakan substitusi mundur untuk mendapatkan nilai variabel.
+
 
 ### Contoh Soal 1
 selesaikan dengan eliminasi gaus:

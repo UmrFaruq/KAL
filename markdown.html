@@ -400,9 +400,51 @@ document.write(`
 <h1>Penyelesaian Sistem Persamaan Linier<a class="headerlink" href="#penyelesaian-sistem-persamaan-linier" title="Link to this heading">#</a></h1>
 <section id="operasi-baris-elementer">
 <h2>Operasi Baris Elementer<a class="headerlink" href="#operasi-baris-elementer" title="Link to this heading">#</a></h2>
+<p>Operasi Baris Elementer (OBE) adalah tiga jenis operasi yang dapat dilakukan pada baris-baris dalam matriks tanpa mengubah solusi dari sistem persamaan linear yang diwakili oleh matriks tersebut. OBE digunakan dalam metode eliminasi Gauss, eliminasi Gauss-Jordan, dan perhitungan determinan serta invers matriks.</p>
+<p><strong>Tiga Jenis Operasi Baris Elementer:</strong></p>
+<ol class="arabic">
+<li><p><strong>Pertukaran Baris (Row Swap)</strong></p>
+<div class="math notranslate nohighlight">
+\[ R_i \leftrightarrow R_j \]</div>
+<p>Menukar posisi dua baris dalam matriks.</p>
+</li>
+<li><p><strong>Perkalian Baris dengan Skalar (Row Scaling)</strong></p>
+<div class="math notranslate nohighlight">
+\[ R_i \rightarrow k R_i, \quad k \neq 0 \]</div>
+</li>
+</ol>
+<p>Mengalikan suatu baris dengan bilangan skalar 𝑘 yang tidak nol.</p>
+<ol class="arabic" start="3">
+<li><p><strong>Penjumlahan Baris dengan Kelipatan Baris Lain (Row Replacement/Row Addition)</strong></p>
+<div class="math notranslate nohighlight">
+\[ R_i \rightarrow R_i + k R_j \]</div>
+<p>Menambahkan kelipatan suatu baris ke baris lain.</p>
+<p>OBE digunakan untuk menyederhanakan matriks ke bentuk eselon baris atau bentuk eselon baris tereduksi, yang berguna dalam penyelesaian sistem persamaan linear dan mencari invers matriks.</p>
+</li>
+</ol>
 </section>
 <section id="eliminasi-gaus">
 <h2>Eliminasi Gaus<a class="headerlink" href="#eliminasi-gaus" title="Link to this heading">#</a></h2>
+<p>Eliminasi Gauss adalah metode dalam aljabar linear yang digunakan untuk menyelesaikan sistem persamaan linear dengan mengubah matriks augmented ke bentuk eselon baris menggunakan Operasi Baris Elementer (OBE).</p>
+<p>Langkah-langkah Eliminasi Gauss:</p>
+<ol class="arabic simple">
+<li><p>Menyusun Matriks Augmented</p></li>
+</ol>
+<ul class="simple">
+<li><p>Tuliskan sistem persamaan linear dalam bentuk matriks augmented.</p></li>
+</ul>
+<ol class="arabic simple" start="2">
+<li><p>Mengubah Matriks ke Bentuk Eselon Baris</p></li>
+</ol>
+<ul class="simple">
+<li><p>Gunakan OBE (pertukaran baris, perkalian dengan skalar, dan penjumlahan baris) untuk membuat elemen di bawah diagonal utama menjadi nol.</p></li>
+</ul>
+<ol class="arabic simple" start="3">
+<li><p>Substitusi Mundur (Back Substitution)</p></li>
+</ol>
+<ul class="simple">
+<li><p>Setelah terbentuk bentuk eselon baris, gunakan substitusi mundur untuk mendapatkan nilai variabel.</p></li>
+</ul>
 </section>
 <section id="contoh-soal-1">
 <h2>Contoh Soal 1<a class="headerlink" href="#contoh-soal-1" title="Link to this heading">#</a></h2>
