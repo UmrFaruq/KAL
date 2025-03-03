@@ -205,6 +205,7 @@ R_3 \rightarrow R_3 - R_2
 $$
 
 Sehingga diperoleh:
+
 $$
 \begin{bmatrix}
 1&1&1&|3\\
