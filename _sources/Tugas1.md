@@ -133,6 +133,7 @@ $$
 
 ### Contoh Soal 2 
 Selesaikan dengan menggunakan eliminasi gauss
+
 $$
 \begin{array}{cc}
 x_1+x_2+x_3&=3\\
@@ -220,6 +221,7 @@ $$
 -\frac{3}{2} x_3 = -\frac{1}{2}
 \end{array}
 $$
+
 $$
 \begin{array}{cc}
 x_3 = \frac{1}{3}
@@ -233,16 +235,19 @@ $$
 x_2 + \frac{1}{2} x_3 = \frac{1}{2}
 \end{array}
 $$
+
 $$
 \begin{array}{cc}
 x_2 + \frac{1}{2} \times \frac{1}{3} = \frac{1}{2}
 \end{array}
 $$
+
 $$
 \begin{array}{cc}
 x_2 + \frac{1}{6} = \frac{1}{2}
 \end{array}
 $$
+
 $$
 \begin{array}{cc}
 x_2 = \frac{1}{2} - \frac{1}{6} = \frac{3}{6} - \frac{1}{6} = \frac{2}{6} = \frac{1}{3}
@@ -250,22 +255,27 @@ x_2 = \frac{1}{2} - \frac{1}{6} = \frac{3}{6} - \frac{1}{6} = \frac{2}{6} = \fra
 $$
 
 Dari baris pertama:
+
 $$\begin{array}{cc}
 x_1 + x_2 + x_3 = 3
 \end{array}
 $$
+
 $$
 \begin{array}{cc}
 x_1 + \frac{1}{3} + \frac{1}{3} = 3
 \end{array}
 $$
+
 $$
 \begin{array}{cc}
 x_1 = 3 - \frac{2}{3} = \frac{9}{3} - \frac{2}{3} = \frac{7}{3}
 \end{array}
 $$
+
 Kesimpulan
 Jadi, solusi dari sistem persamaan adalah:
+
 $$\begin{aligned}
 x_1&=\frac{7}{3}\\
 x_2&=\frac{1}{3}\\
