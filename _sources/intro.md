@@ -91,7 +91,7 @@ $
 Kedua persamaan ini memiliki koefisien yang sama untuk \( x \) dan \( y \), tetapi konstanta di sisi kanan berbeda.  
 Ini berarti kedua garis **sejajar** dan **tidak akan pernah berpotongan**, sehingga **tidak ada solusi** untuk sistem ini.
 
-<iframe scrolling="no" title="Systems of Linear Equations - Practice" src="https://www.geogebra.org/material/iframe/id/dbthscjy/width/800/height/520/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/false/rc/false/ld/false/sdz/true/ctl/false" width="800px" height="520px" style="border:0px;"> </iframe>
+<iframe scrolling="no" title="Adjust the sliders to change the equation.  Then look at the graph to decide how many solutions it will have." src="https://www.geogebra.org/material/iframe/id/ZgzhJdSQ/width/1334/height/552/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/false/rc/false/ld/false/sdz/false/ctl/false" width="1334px" height="552px" style="border:0px;"> </iframe>
 
 ### Eliminasi
 **Definisi:** Metode eliminasi adalah teknik untuk menyelesaikan sistem persamaan linier dengan mengeliminasi satu variabel pada satu waktu, sehingga sistem dapat diselesaikan dengan lebih mudah.
